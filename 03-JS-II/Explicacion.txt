@@ -1,0 +1,50 @@
+El Bucle "for":
+Se utiliza cuando se quiere realizar en pocas lineas de codigo una tarea repetitiva, por ejemplo imprimir en pantalla una secuencia numerica que nos exigiria escribir una linea de codigo por cada numero a imprimir.
+
+A "for " se la alimenta de:
+
+1- el valor donde queremos iniciar el bucle.
+2- la condicion de parada, que se cumple cuando nuestra variable adquiere un valor determinado.
+3- el incremento que le dmos a esa variable por cada vuelta del loop. 
+
+Ejemplos con nuestra variable "x"
+	
+	// Imprime una lista de valores desde el 0 inclusive hasta el 10 inclusive.
+
+	for (x=0; x<=10; x++){
+		console.log(x);
+	}
+
+	// Imprime una lista de valores desde el 5 inclusive hasta el 18 inclusive.
+
+	for (x=5; x<=18; x++){
+		console.log(x);
+	}
+
+Operadoes Logicos && || !
+
+Sirven para comparar dos exprexiones de igualdad y evaluandolas si son verdaderas o no.
+
+&& (Es igual a "Y")
+Este operador devuelve "true" si las dos expresiones son true, si cualquiera  o los dos son false develvera "false" 
+Ej :
+	
+	2<3 && 4<5  // Aqui ambas son true por lo tanto el resultado es "true"
+	2<3 && 4===5 // Aqui obviamente el segundo es false entonces es "false"
+	2===3 && 4===5 // Los dos son false entonces es "false"
+
+|| (Esigual a "OR") 
+Este operador devuelve "true" si solo una de las dos expresiones es true, y false solo cuando las dos son "false"  
+Ej :
+	
+	2<3 || 4<5  // Aqui ambas son true por lo tanto el resultado es "true"
+	2<3 || 4===5 // Aqui la primera es true entonces es "true" 
+	2===3 || 4===5 // Los dos son false entonces es "false"
+
+! (Esigual a "NOT") 
+Este operador devuelve el valor booleano inverso al que se la pasa.
+
+!(1===1) // Es false
+!(1!==1) //Es true
+
+------------------------------------------------------------------------------------------------------------------------
