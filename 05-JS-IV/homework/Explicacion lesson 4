@@ -1,0 +1,43 @@
+Explicaion lesson 4
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+
+
+
+	Los objetos son listas de elementos que se relacionan con indice tipo string y un valor (numero, string, otro array, otroo objeto, funciones (metodos)), llamado comunmente key:value donde key es el nombre de la propiedad y value su contenido.
+
+	Las propiedades de un objeto son los nombres de las keys de cada valor. Ej
+
+	var persona={
+		nombre: "Mariano",
+		apellido: "Tellado",
+		edad: 49,
+	}
+
+	En este caso las propiedades son nombre, apellido, edad.
+
+	Los metodos son un tipo de propiedad que contienen una funcion como valor Ej
+
+	var persona={
+		nombre: "Mariano",
+		apellido: "Tellado",
+		edad: 49,
+		getEdad: function(){
+			console.log(persona.edad);
+		}
+	}
+
+	En este caso getEdad seria un metodo del objeto persona
+
+	El  bucle for...in recorre el indice de un objeto pudiendo ejecutar una accion en cada instancia
+
+	for (var propiedad in usuarios){
+		console.log(usuarios.[propiedad] + " " + propiedad)
+	}
+
+	Aqui se imprime a la izquierdael valor de la propiedad y a la derecha su valor o contenido 
