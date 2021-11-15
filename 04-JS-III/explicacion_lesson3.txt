@@ -1,0 +1,43 @@
+Arrays
+
+Los arrays es un tipo de variable, que en vez de contener solo un(1) dato ya sea string, numero o booleano, contiene conjuntos o listas de datos que se ordenan por un indice numerico el cual comienza en cero (0), vale decir que el elemento cero es el primer elemento del array.
+Los arrays puede tener dentro datos del numero, string, booleanos, otros arrays, y funciones.
+
+Ej:
+
+
+var array = [] // asi" se define un array con los corchetes despues del nomnbre.
+
+// Un array con contenido
+
+var array2=[1, "Jose", true,["peras","manzanas", "naranjas"], function(){console.log("SoyHenry")}]
+
+
+Cada elemento tiene un indice y por ese indice se lo invoca de esta manera
+
+Ej:
+
+array2[1] == "Jose"
+array2[2] == true
+
+
+Cuando queremos llamar a un elemento dentro del array contenido en el array2 debemos usar los indices asi
+
+array2[3]  == ["peras","manzanas", "naranjas"]
+array2[3][0] == ["peras"]
+
+Para llamar a la funcion dentro del array2 hacemos asi:
+
+array2[4]()
+
+Para saber que cantidad de elementos guarda un array hacemos asi
+
+array2.length
+
+De la misma forma invocamos muchas mas propiedades que javascripts nos propociona con Array
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
