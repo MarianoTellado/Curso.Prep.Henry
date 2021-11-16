@@ -1,0 +1,26 @@
+body{
+	background-image: url("https://assets.iproup.com/assets/jpg/2021/07/20759.jpg?7.1.0");
+	text-align: center;
+}
+h1{
+	color:red;
+}
+img{
+	width: 400px;
+}
+div{
+	max-width: 600px;
+	margin: 0 auto;
+}
+#thirdDiv{
+	height: 600px;
+	width: 500px;
+	background-color: yellow;
+	padding:50px;
+	border: 1px solid black;
+}
+#spanId{
+	font-size: 18px;
+	margin:50px;
+	background-color: yellow;
+}
