@@ -1,0 +1,54 @@
+html, body {  
+   margin:0px auto;  
+   height:100%;  
+   width: 100%;
+ }  
+header{
+	display: flex;
+	height: 20%;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(168,177,245);
+}
+h1{
+	font-family: Calibri;
+	font-size: 24px;
+	margin-left: 30px;
+}
+#foto_perfil{
+	height: 90px;
+}
+nav{
+	background-color: rgb(110,166,210);
+}
+
+ul{
+	display: flex;
+	margin: 0px;
+	justify-content: space-around;
+	
+}
+li{
+	list-style-type: none;
+	font-family: Calibri;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+section{
+	display: flex;
+    justify-content: center;
+
+    padding: 50px;
+   
+    height: 60%;
+}
+div{
+	display: flex;
+	max-width: 60%;
+	max-height: 60%;
+	font-size: 20px;
+	font-family: Calibri;
+
+}
